@@ -1,0 +1,310 @@
+/*
+font-family: 'Playfair Display', serif;
+font-family: 'Ubuntu', sans-serif;
+font-family: 'Inconsolata', monospace;
+*/
+
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Playfair Display', serif;
+	color: #626262;
+}
+
+/* header starts ----------------------------------------------------------------------*/
+header {
+	/*border: 1px solid #bbbbbb;*/
+}
+
+.wrapper, .wrapper4 {
+	width: 90%;
+	margin: 0 auto;
+	/*border: 1px solid #cecece;*/
+	overflow: hidden;
+}
+
+.logo {
+	width: 10%;
+	padding: 21px 0;
+	float: left;
+}
+
+.logo img {
+	width: 100%;
+}
+
+.menu {
+	width: 80%;
+	float: right;
+}
+
+.menu ul {
+	float: right;
+}
+
+.menu ul li {
+	list-style: none;
+	float: left;
+}
+
+.menu ul li a {
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #626262;	
+	display: block;
+	padding: 23px 50px 25px;
+	transition: 0.5s;
+}
+
+.menu ul li a:hover {	
+	color: #000000;
+}
+
+.menu ul li:last-child a {
+	padding-right: 0;
+}
+/* header ends ----------------------------------------------------------------------*/
+
+
+/* banner starts ----------------------------------------------------------------------*/
+.banner {
+	margin-bottom: 50px;
+}
+
+.b_img {}
+
+.b_img img {
+	width: 100%;
+}
+/* banner ends ----------------------------------------------------------------------*/
+
+
+/* getaway starts ----------------------------------------------------------------------*/
+.getaway {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.wrapper2 {
+	width: 80%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.g_content {}
+
+.light {
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 300;
+	font-size: 14px;
+	color: #b4ad9e;
+	text-transform: uppercase;
+}
+
+.c_title {
+	font-weight: 400;
+	font-size: 30px;
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+
+.c_text {
+	line-height: 28px;
+	word-spacing: 3px;
+	margin-bottom: 45px;
+}
+/* getaway ends ----------------------------------------------------------------------*/
+
+
+/* blog starts ----------------------------------------------------------------------*/
+.blog, .blog2 {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+ .single {
+ 	width: 47%;
+	float: left;
+	/*margin: 0 auto;*/
+ }
+
+.single img {
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.single:nth-child(even) {
+	margin-left: 5%;	
+}
+
+/* blog ends ----------------------------------------------------------------------*/
+
+
+/* newsletter starts ----------------------------------------------------------------------*/
+.newsletter {
+	padding: 75px 0;
+	background: #f0f0f0;
+}
+
+.sign_up {
+	text-align: center;
+}
+
+.sign_up h1 {
+	margin-bottom: 100px;
+	font-size: 30px;
+	color: #333333;
+	text-align: center;
+	letter-spacing: 1px;
+}
+
+.reg_form {	
+	width: 400px;
+    /*left: 0;
+    right: 0;*/
+    margin: 0 auto;
+    position: relative;
+}
+
+.reg_form input {
+    width: 340px;
+	border: none;
+    background: transparent;
+    border-bottom: 1px solid black;
+    font-family: 'Playfair Display', serif;
+    font-size: 16px;
+    padding: 10px 50px 10px 10px;
+    outline: none;
+}
+
+.reg_form button {
+	border: none;
+    background: transparent;
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    cursor: pointer;
+}
+
+
+/* newsletter ends ----------------------------------------------------------------------*/
+
+
+/* load_more starts ----------------------------------------------------------------------*/
+
+.load_more {
+	padding-top: 75px;
+    padding-bottom: 75px;
+	text-align: center;
+}
+
+.load_more button {
+	width: 170px;
+	padding: 20px 0;
+	border: 2px solid #626262;	
+	background: transparent;
+	font-family: 'Playfair Display', serif;
+	font-size: 20px;
+	color: #626262;
+	text-align: center;
+	cursor: pointer;
+	transition: 0.5s;
+}
+
+.load_more button:hover {
+	background: #f0f0f0;
+	color: #000000;
+	letter-spacing: 1px;
+}
+
+
+/* load_more ends ----------------------------------------------------------------------*/
+
+
+/* footer starts ----------------------------------------------------------------------*/
+
+
+footer {
+    margin-top: 100px;
+    min-height: 100px;
+    background: #f0f0f0;
+}
+
+.wrapper4 {
+    padding: 40px 0;
+}
+
+.terms {
+	width: 50%;
+	float: left;
+}
+
+.social {
+	width: 50%;
+	float: right;
+}
+
+.social ul {
+	float: right;
+}
+
+.terms ul li, .social ul li {
+	list-style: none;
+	float: left;
+}
+
+.terms ul li a, .social ul li a {
+	text-decoration: none;
+	color: #000000;
+	transition: 0.5s;
+}
+
+.terms ul li:last-child a {
+	padding-left: 50px;
+}
+
+.social ul li a {
+	padding: 0 10px;
+}
+
+.terms ul li a:hover, .social ul li a:hover {
+	color: #626262;
+}
+
+.social ul li:first-child a {
+	padding-right: 35px;
+}
+
+.social ul li:last-child a {
+	padding-right: 0;
+}
+/* footer ends ----------------------------------------------------------------------*/
+
+
+/*  starts ----------------------------------------------------------------------*/
+
+/*  ends ----------------------------------------------------------------------*/
+
+
+
+
+	/*border: 1px solid #c5c5c5;*/
+	/*border: 1px solid #cecece;*/
+	/*border: 1px solid #e2e2e2;*/
+	/*background: #f0f0f0;*/	
+	/*background-color: #ececec;*/
+	/*background-color: #b1b1b1;*/
+	/*background-color: #f6f6f6;*/
+
+
+/*
+gray color hex & rgb codes: https://www.colorhexa.com/808080
+#f6f6f6 #ececec #e2e2e2 #d8d8d8 
+#cecece #c5c5c5 #bbbbbb #b1b1b1 
+#a7a7a7 #9d9d9d #949494 #8a8a8a 
+#808080
+*/
